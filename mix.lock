@@ -1,0 +1,3 @@
+%{
+  "construct": {:hex, :construct, "1.1.0", "095273c4f383590efa653bbe3d44766e68d35a0617602c58e62ab537df283fff", [:mix], [], "hexpm"},
+}
