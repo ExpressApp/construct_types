@@ -1,8 +1,5 @@
-defmodule ConstructTypesTest do
+defmodule Construct.TypesTest do
   use ExUnit.Case
-  doctest ConstructTypes
 
-  test "greets the world" do
-    assert ConstructTypes.hello() == :world
-  end
+  doctest Construct.Types.CommaList
 end
