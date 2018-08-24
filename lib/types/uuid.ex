@@ -19,6 +19,6 @@ defmodule Construct.Types.UUID do
 
   @behaviour Construct.Type
 
-  def cast(<< _::64, ?-, _::32, ?-, _::32, ?-, _::32, ?-, _::96 >> = v), do: {:ok, v}
+  def cast(<<_::64, ?-, _::32, ?-, _::32, ?-, _::32, ?-, _::96>> = v), do: {:ok, v}
   def cast(_), do: :error
 end
