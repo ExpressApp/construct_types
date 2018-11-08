@@ -10,7 +10,7 @@ by adding `construct_types` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:construct_types, "~> 0.1.0"}
+    {:construct_types, "~> 0.2"}
   ]
 end
 ```
